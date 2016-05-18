@@ -1,5 +1,4 @@
 HubotCron = require 'hubot-cronjob'
-fetchRestaurantMenu = require 'my-restaurant-api'
 ScoreKeeper = require('./scorekeeper')
 _ = require('underscore')
 clark = require('clark')
