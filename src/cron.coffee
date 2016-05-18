@@ -1,7 +1,5 @@
 HubotCron = require 'hubot-cronjob'
 ScoreKeeper = require('./scorekeeper')
-_ = require('underscore')
-clark = require('clark')
 
 module.exports = (robot) ->
   scoreKeeper = new ScoreKeeper(robot)
